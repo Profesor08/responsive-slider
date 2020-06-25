@@ -1,0 +1,11 @@
+node_modules/
+.cache/
+.vscode/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.rts2_cache_modern/
+docs/
+package-lock.json
+.git/
+demo/

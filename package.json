@@ -1,0 +1,30 @@
+{
+  "name": "responsive-slider",
+  "version": "1.0.0",
+  "description": "Responsive Slider with everything you need",
+  "source": "src/index.ts",
+  "main": "dist/responsive-slider.js",
+  "umd:main": "dist/responsive-slider.umd.js",
+  "module": "dist/responsive-slider.mjs",
+  "unpkg": "dist/responsive-slider.umd.js",
+  "types": "dist/ResponsiveSlider/index.d.ts",
+  "scripts": {
+    "build": "microbundle build src/index.ts",
+    "dev": "microbundle watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Profesor08/responsive-slider.git"
+  },
+  "author": "profesor08",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Profesor08/responsive-slider/issues"
+  },
+  "homepage": "https://github.com/Profesor08/responsive-slider#readme",
+  "devDependencies": {
+    "microbundle": "^0.12.0"
+  },
+  "dependencies": {}
+}
